@@ -129,7 +129,7 @@ padding-top: 120px;
   width:700px;
   height:120px;
   margin: 0 auto;
-  margin-left: -200px;
+  margin-left: -120px;
 background-color:#93a99F;
 opacity :0.5;
 }
@@ -141,12 +141,13 @@ opacity :0.5;
 }
 .header ul li{
 
-  padding-left: 80px;
+  padding-left: 10px;
 
 
 }
 .intro{
 margin-top: 60px;
+margin-left: -20px;
   width: 400px;height: 400px;
   background-color : rgba(0,0,0,.3);
 
