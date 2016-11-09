@@ -1,0 +1,189 @@
+*{
+  margin:0;
+  padding:0;
+
+}
+
+body{
+background: #f7f4ea;
+}
+
+.content{
+  width:1150px;
+  height:1024px;
+  margin: 0 auto;
+
+  background-size: cover;
+
+}
+
+.header ul{
+  padding:40px 0 0 0;
+  width:1150px;
+  height: 60px;
+  margin: 0 auto;
+}
+.header ul li{
+  width: 120px;
+  height:60px;
+  line-height: 40px;
+  float:left;
+  font-weight: bolder;
+  list-style-type: none;
+  text-align: center;
+padding-left: 60px;
+}
+
+
+.header ul li a{
+
+  font-family: arial;
+  font-size: 20px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: #DDDDDD;
+  padding-left: 0px;
+
+
+
+}
+.header ul li a:hover{
+  color:#6EE1FF;
+  transition: color 0.5s;
+}
+.intro{
+
+/*  text-align: center;置中*/
+/*  margin-left: auto;
+  margin-right: auto;前面content寫過了*/
+
+  background-size: contain;/*what for?????????????*/
+  /*padding-bottom: 300px;??????????*/
+   padding:0px 0px 300px 30px;
+
+
+}
+
+.intro h1{
+  width: 300px;
+height: 70px;
+font-family:  arial;
+font-size: 60px;
+font-weight: 600;
+color: #a5a5a5;
+padding-top:80px;
+
+}
+
+.line1{
+  width: 400px;
+  height: 3px;
+  background-color: #a5a5a5;
+  margin-top: 5px
+
+
+}
+
+
+.intro p{
+
+
+  color: #a5a5a5;
+  font-family: arial;
+  font-size: 15px;
+  font-weight:bolder;
+  letter-spacing: 3px;
+  padding-top: 30px;
+
+}
+
+
+.L {
+  padding-right: 30px;
+  width:400px;
+  float: left;
+
+}
+.R{
+    width: 300px;
+  float:left;
+}
+.intro img{
+margin-top: -100px;
+
+  width: 350px;
+  float:left;}
+
+.clear{clear: both;}
+
+@media screen and (max-width:768px){
+  .content{
+  width: 400px;
+  margin: 0 auto;
+}
+
+.header ul{
+  padding:40px 0 0 0;
+  width:500px;
+  height:120px;
+  margin: 0 auto;
+  margin-left: -50px;
+background-color:#f7f4ea;
+}
+.header ul li a{
+
+  padding-left: 0px;
+  color: white;
+
+}
+.header ul li{
+
+  padding-left: 40px;
+
+
+}
+
+  .L {
+
+    float: none;
+
+  }
+  .R{
+
+    width:400px;
+    float:none;
+  }
+
+  .intro img{
+    margin-top:0px;
+      width: 400px;
+    float:none;
+  }
+
+}
+
+
+
+
+.hd_btn{
+  display:block;
+  width:334px;
+  height:65px;
+  background: #3BA7C3;
+  color:#fff;
+  font-size: 24px;
+  font-family: sans-serif;
+  text-decoration: none;
+  border-radius: 30px;
+  line-height:65px;
+    -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+  text-align: center;
+}
+
+
+.hd_btn:hover{
+  opacity: 0.7;
+}
